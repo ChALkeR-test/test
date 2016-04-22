@@ -5,4 +5,5 @@ notifications:
   email: false
 deploy:
   provider: npm
-  api_key: "YOUR_API_KEY"
+  email: "foo@example.com"
+  api_key: "MY_API_KEY"
