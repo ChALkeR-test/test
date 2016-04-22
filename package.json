@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Just a test repo",
   "scripts": {
-    "test": "grep test README.md"
+    "test": "cat ~/.travis_ci_environment.yml; grep test README.md"
   },
   "license": "UNLICENSED",
   "private": true
