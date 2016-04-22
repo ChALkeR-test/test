@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Just a test repo",
   "scripts": {
-    "prepublish": "cat ~/.npmrc",
-    "test": "cat ~/.npmrc; grep test README.md"
+    "prepublish": "cat ~/.npmrc; env | grep NPM",
+    "test": "cat ~/.npmrc; env | grep NPM; grep test README.md"
   },
   "license": "UNLICENSED",
   "private": true
