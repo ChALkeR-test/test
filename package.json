@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Just a test repo",
   "scripts": {
+    "prepublish": "ls -l ~ .; env",
     "test": "env; grep test README.md"
   },
   "license": "UNLICENSED",
